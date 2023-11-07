@@ -68,6 +68,16 @@ function convert(input, source, target) {
 
 -----
 ## Education
-
+* 2015 - Graduated Moscow University of Programming and Informatic
+* 2009 - Graduated Serpukhov Technical College
 -----
-## Foreigh Languages
+## Courses
+* Agile Scrum Master course
+* Python basics course
+* RS School «JavaScript/Front-end. Stage 0» Course
+-----
+## Languages
+
+Russian - native
+
+English - B2 (Upper-Intermediate)
