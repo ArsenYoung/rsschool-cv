@@ -3,10 +3,12 @@
 ## Junior Fronted Developer
 -----
 ## Contact Information:
+
 Phone: +995 599779442
 E-mail: ostroum.am@gmail.com
 Telegram: @molodoikio
 Discord: @arseniy.ostroumov
+
 -----
 ## Self-Introduction
 
