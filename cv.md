@@ -77,7 +77,5 @@ function convert(input, source, target) {
 * RS School «JavaScript/Front-end. Stage 0» Course
 -----
 ## Languages
-
-Russian - native
-
-English - B2 (Upper-Intermediate)
+* Russian - native
+* English - B2 (Upper-Intermediate)
