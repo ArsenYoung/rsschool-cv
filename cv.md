@@ -5,8 +5,11 @@
 ## Contact Information:
 
 Phone: +995 599779442
+
 E-mail: ostroum.am@gmail.com
+
 Telegram: @molodoikio
+
 Discord: @arseniy.ostroumov
 
 -----
