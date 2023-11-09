@@ -14,7 +14,7 @@ Discord: @arseniy.ostroumov
 
 -----
 ## Self-Introduction
-
+I have great work experience in IT industry, which counted more than 7 years. At the beginning of my career I worked as analyst in small and big companies and showed myself as a reliable and problem-solving employee. One year ago I decided to change my career way and retrain to developer. I started my education with studying computer science and backend-development, but then I switched on frontend-development because it more interesting for me than backend-development. Now I'm studying in RS School, improving my knowledge about frontend-development and developing my own freelance projects.
 -----
 ## Skills
 * HTML5
@@ -65,7 +65,14 @@ function convert(input, source, target) {
 ```
 -----
 ## Work Experience
+2020 - 2022 Sberbank
+Worked in develop team with HR-recruitment project PULSE as a release-manager and scrum-master. Improved release frequency for 40%. Helped to reorganize work processes for team using modern Scrum practices, as a consequence of which team productivity was grown for 50% and quality of code was grown for 30%.
 
+2018 - 2020 Sberbank
+Worked as an analyst and an engeneer with HR-recruitment project based on cloud platform SAP Success Factors. Developed and upgraded companies reqcruitment proccesses, due speed of hiring applicants was grown for 40%.
+
+2015 - 2018 MigoGroup company (IT consulting)
+Worked as an intern analyst on several projects based on SAP HCM platform.
 -----
 ## Education
 * 2015 - Graduated Moscow University of Programming and Informatic
