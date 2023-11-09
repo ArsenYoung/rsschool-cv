@@ -14,7 +14,9 @@ Discord: @arseniy.ostroumov
 
 -----
 ## Self-Introduction
+
 I have great work experience in IT industry, which counted more than 7 years. At the beginning of my career I worked as analyst in small and big companies and showed myself as a reliable and problem-solving employee. One year ago I decided to change my career way and retrain to developer. I started my education with studying computer science and backend-development, but then I switched on frontend-development because it more interesting for me than backend-development. Now I'm studying in RS School, improving my knowledge about frontend-development and developing my own freelance projects.
+
 -----
 ## Skills
 * HTML5
