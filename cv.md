@@ -75,6 +75,7 @@ Worked as an analyst and an engeneer with HR-recruitment project based on cloud 
 
 2015 - 2018 MigoGroup company (IT consulting)
 Worked as an intern analyst on several projects based on SAP HCM platform.
+
 -----
 ## Education
 * 2015 - Graduated Moscow University of Programming and Informatic
