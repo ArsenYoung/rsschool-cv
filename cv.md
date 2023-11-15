@@ -74,7 +74,7 @@ function convert(input, source, target) {
 ## Work Experience
 __2020 - 2022 Sberbank__
 
-Worked in develop team with HR-recruitment project PULSE as a release-manager and scrum-master. Improved release frequency for 40%. Helped to reorganize work processes for team using modern Scrum practices, as a consequence of which team productivity was grown for 50% and quality of code was grown for 30%.
+Worked in develop team with HR-recruitment project PULSE as a release-manager and a scrum-master. Improved release frequency for 40%. Helped to reorganize work processes for team using modern Scrum practices, as a consequence of which team productivity was grown for 50% and quality of code was grown for 30%.
 
 **2018 - 2020 Sberbank**
 
