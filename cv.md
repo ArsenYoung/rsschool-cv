@@ -27,6 +27,7 @@ I have great work experience in IT industry, which counted more than 7 years. At
 * VSCode
 * Adobe Photoshop
 
+
 -----
 ## Code Examples
 *In this kata you have to implement a base converter, which converts positive integers between arbitrary bases / alphabets. Here are some pre-defined alphabets:*
