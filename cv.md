@@ -26,9 +26,11 @@ I have great work experience in IT industry, which counted more than 7 years. At
 * Git, Github
 * VSCode
 * Adobe Photoshop
+
 -----
 ## Code Examples
 *In this kata you have to implement a base converter, which converts positive integers between arbitrary bases / alphabets. Here are some pre-defined alphabets:*
+
 ```
 var Alphabet = {
     BINARY:        '01',
@@ -51,6 +53,7 @@ var bin = Alphabet.BINARY,
     alnum = Alphabet.ALPHA_NUMERIC;
 ```
 *The function convert() should take an input (string), the source alphabet (string) and the target alphabet (string). You can assume that the input value always consists of characters from the source alphabet. You don't need to validate it.*
+
 ```
 function convert(input, source, target) {
     let result = '';
@@ -65,6 +68,7 @@ function convert(input, source, target) {
     return result;
 }
 ```
+
 -----
 ## Work Experience
 2020 - 2022 Sberbank
@@ -83,11 +87,13 @@ Worked as an intern analyst on several projects based on SAP HCM platform.
 ## Education
 * 2015 - Graduated Moscow University of Programming and Informatic
 * 2009 - Graduated Serpukhov Technical College
+
 -----
 ## Courses
 * Agile Scrum Master course
 * Python basics course
 * RS School «JavaScript/Front-end. Stage 0» Course
+
 -----
 ## Languages
 * Russian - native
