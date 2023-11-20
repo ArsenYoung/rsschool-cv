@@ -5,22 +5,17 @@ body {
 .wrapper {
     display: grid;
     
-    grid-template-areas: 
-    "profile about_me about_me"
-    "profile job_experience job_experience"
-    "profile job_experience job_experience"
-    "profile skills skills"
-    "profile language hobbies"
-    "footer footer footer";
+    grid-template-columns: 400px 200px 200px;
+    grid-template-rows: repeat(16, 50px);
 
     margin-left: 20%;
     margin-right: 20%;
 }
 
 .profile {
-    grid-area: profile;
+    grid-row: 1/-2;
 
-    background-color: aqua;
+    background-color: rgb(227, 227, 227);
 }
 
 h1 {
@@ -28,37 +23,40 @@ h1 {
 }
 
 .about_me {
-    grid-area: about_me;
+    grid-row: span 4;
+    grid-column: span 2;
 
     background-color: red;
 }
 
 .job_experience {
-    grid-area: job_experience;
+    grid-row: span 6;
+    grid-column: span 2;
 
     background-color: yellow;
 }
 
 .skills {
-    grid-area: skills;
+    grid-row: span 3;
+    grid-column: span 2;
 
     background-color: green;
 }
 
 .language {
-    grid-area: language;
+    grid-row: span 2;
 
     background-color: brown;
 }
 
 .hobbies {
-    grid-area: hobbies;
+    grid-row: span 2;
 
     background-color: blue;
 }
 
 .footer {
-    grid-area: footer;
+    grid-column: span 3;
 
     color: white;
     background-color: black;
