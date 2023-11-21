@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Prelo-Book";
+    font: "Prelo-Book";
+    src: url(./src/fonts/Prelo/Prelo-Book.ttf);
+}
+
+@font-face {
+    font-family: "Prelo-Bold";
+    font: "Prelo-Bold";
+    src: url(./src/fonts/Prelo/Prelo-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Prelo-Black";
+    font: "Prelo-Black";
+    
+    src: url(./src/fonts/Prelo/Prelo-Black.ttf);
+}
+
+@font-face {
+    font-family: "Prelo-Light";
+    font: "Prelo-Light";
+    src: url(./src/fonts/Prelo/Prelo-Light.ttf);
+}

@@ -2,24 +2,91 @@ body {
     margin: 0 auto;
 }
 
+p {
+    margin: 0 auto;
+}
+
 .wrapper {
     display: grid;
     
-    grid-template-columns: 400px 200px 200px;
+    grid-template-columns: 35% auto auto;
     grid-template-rows: repeat(16, 50px);
 
     margin-left: 20%;
     margin-right: 20%;
 }
 
-.profile {
+.main_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     grid-row: 1/-2;
 
+    margin-left: 40px;
+    margin-right: 40px;
     background-color: rgb(227, 227, 227);
 }
 
+.up_box {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    align-items: center;
+
+    height: 360px;
+
+    border-radius: 0px 0px 160px 160px;
+
+    background-color: rgb(38, 36, 36);
+    padding: 40px 20px 0px 20px;
+}
+
+.contacts {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bottom_box {
+    height: 300px;
+
+    border-radius: 140px 140px 0px 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    background-color: rgb(38, 36, 36);
+}
+
 h1 {
-    color: black;
+    margin: 0 auto;
+    text-align: center;
+
+    font-family: "Prelo-Bold";
+    color: white;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 32px;
+}
+
+hr {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.profession {
+    margin: 0 auto;
+    text-align: center;
+
+    font-family: "Prelo-Book";
+    color: white;
+}
+
+.profile_photo {
+    width: 95%;
+    border-radius: 120px 120px 120px 120px;
+    border: 8px solid white;
+
+    margin-top: 10px;
 }
 
 .about_me {
