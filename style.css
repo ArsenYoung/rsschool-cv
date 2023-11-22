@@ -1,8 +1,33 @@
 body {
     margin: 0 auto;
+
+    font-family: "Prelo-Book";
 }
 
 p {
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+
+    font-family: "Prelo-Bold";
+    color: white;
+    letter-spacing: 2px;
+    line-height: 24px;
+    font-size: 24px;
+}
+
+h2 {
+    margin: 0px 0px 0px 10px;
+
+    font-family: "Prelo-Bold";
+    font-size: 16px;
+}
+
+hr {
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -16,6 +41,17 @@ p {
     margin-right: 20%;
 }
 
+.subheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 30px;
+
+}
+
 .main_column {
     display: flex;
     flex-direction: column;
@@ -23,8 +59,8 @@ p {
 
     grid-row: 1/-2;
 
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
     background-color: rgb(227, 227, 227);
 }
 
@@ -34,17 +70,28 @@ p {
     /*justify-content: space-between;*/
     align-items: center;
 
-    height: 360px;
-
-    border-radius: 0px 0px 160px 160px;
+    border-radius: 0px 0px 200px 200px;
 
     background-color: rgb(38, 36, 36);
-    padding: 40px 20px 0px 20px;
+    padding: 20px 20px 0px 20px;
 }
 
-.contacts {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.profession {
+    margin: 0 auto;
+    text-align: center;
+
+    font-family: "Prelo-Book";
+    font-size: 14px;
+    color: white;
+}
+
+.profile_photo {
+    width: 95%;
+    border-radius: 120px 120px 120px 120px;
+    border: 8px solid white;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .bottom_box {
@@ -57,36 +104,53 @@ p {
     background-color: rgb(38, 36, 36);
 }
 
-h1 {
-    margin: 0 auto;
-    text-align: center;
+.contacts {    
+    margin: 10px 20px 10px 20px;
+}
 
-    font-family: "Prelo-Bold";
+.contact_list {
+    padding: 0px;
+    margin: 10px 0px 0px 20px;
+    list-style-type: none;
+}
+
+.contact_item:before{
+    content: '';
+    display: inline-block;
+    height:20px;
+    width: 20px;
+    vertical-align: middle;
+    border-radius:50%;
+    
+    margin-right:5px;
+}
+
+.contact_item.email:before {
+    background-image: url(./src/icons/mail.svg);
+}
+
+.contact_item.telegram:before {
+    background-image: url(./src/icons/telegram.svg);
+}
+
+.contact_item.discord:before {
+    background-image: url(./src/icons/discord.svg);
+}
+
+.education {
+    margin: 40px 20px 20px 20px;
     color: white;
-    letter-spacing: 2px;
-    line-height: 28px;
-    font-size: 32px;
 }
 
-hr {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.profession {
-    margin: 0 auto;
-    text-align: center;
-
-    font-family: "Prelo-Book";
-    color: white;
-}
-
-.profile_photo {
-    width: 95%;
-    border-radius: 120px 120px 120px 120px;
-    border: 8px solid white;
-
+.education_item {
+    margin-left: 10px;
     margin-top: 10px;
+}
+
+.education_place {
+    font-size: 16px;
+    font-family: "Prelo-Bold";
+    line-height: 18px;
 }
 
 .about_me {
