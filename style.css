@@ -327,3 +327,25 @@ hr {
     color: white;
     background-color: black;
 }
+
+.wrapper_ft {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    max-width: 100%;
+    margin: 10px 10px;
+}
+
+.footer_year {
+    margin: 0px 10px 0px 0px;
+}
+
+.footer_school {
+    width: 37px;
+    margin: 0px 10px 0px 0px;
+}
+
+.footer_github {
+    width: 30px;
+}
