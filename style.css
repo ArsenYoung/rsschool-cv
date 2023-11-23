@@ -2,10 +2,12 @@ body {
     margin: 0 auto;
 
     font-family: "Prelo-Book";
+    font-size: 14px;
 }
 
 p {
     margin: 0 auto;
+    text-align: justify;
 }
 
 h1 {
@@ -35,7 +37,7 @@ hr {
     display: grid;
     
     grid-template-columns: 35% auto auto;
-    grid-template-rows: repeat(16, 50px);
+    grid-template-rows: repeat(20, 50px);
 
     margin-left: 20%;
     margin-right: 20%;
@@ -148,23 +150,76 @@ hr {
 }
 
 .education_place {
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Prelo-Bold";
-    line-height: 18px;
+    line-height: 14px;
+    text-align: start;
+}
+
+.education_degree {
+    margin-top: 5px;
+    line-height: 14px;
+    text-align: start;
+}
+
+
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin: 20px 20px 20px 20px;
+}
+
+.text {
+    margin-top: 10px;
 }
 
 .about_me {
     grid-row: span 4;
     grid-column: span 2;
-
-    background-color: red;
 }
 
 .job_experience {
-    grid-row: span 6;
+    grid-row: span 9;
     grid-column: span 2;
+}
 
-    background-color: yellow;
+.experience_item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.experience_role {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.experience_role_name {
+    margin: 0px;
+
+    font-family: "Prelo-Bold";
+}
+
+.experience_role_year {
+    margin: 0px;
+}
+
+.experience_company {
+    margin: 0px 0px 10px 0px;
+}
+
+.experience_description {
+    margin: 0px;
 }
 
 .skills {
