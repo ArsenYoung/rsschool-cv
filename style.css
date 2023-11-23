@@ -180,6 +180,7 @@ hr {
 .about_me {
     grid-row: span 4;
     grid-column: span 2;
+    
 }
 
 .job_experience {
@@ -225,20 +226,116 @@ hr {
 .skills {
     grid-row: span 3;
     grid-column: span 2;
-
-    background-color: green;
 }
 
-.language {
-    grid-row: span 2;
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
 
-    background-color: brown;
+    margin-bottom: 10px;
+}
+
+.skills_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-top: 10px;
+}
+
+.skill_text {
+    margin: 0px;
+}
+
+.skill_range {
+    -webkit-appearance: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 4px;
+    width: 80px;
+}
+
+.html {
+    background: -webkit-linear-gradient(left, black 90%, white 90%);
+}
+
+.css {
+    background: -webkit-linear-gradient(left, black 60%, white 60%);
+}
+
+.js {
+    background: -webkit-linear-gradient(left, black 40%, white 40%);
+}
+
+.react {
+    background: -webkit-linear-gradient(left, black 10%, white 10%);
+}
+
+.python {
+    background: -webkit-linear-gradient(left, black 30%, white 30%);
+}
+
+.java {
+    background: -webkit-linear-gradient(left, black 30%, white 30%);
+}
+
+.git {
+    background: -webkit-linear-gradient(left, black 60%, white 60%);
+}
+
+.linux {
+    background: -webkit-linear-gradient(left, black 20%, white 20%);
+}
+
+.sql {
+    background: -webkit-linear-gradient(left, black 30%, white 30%);
+}
+
+.skill_range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+.skill_range::-moz-range-track {
+    -moz-appearance: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    height: 4px;
+    width: 120px;
+}
+
+.languages {
+    grid-row: span 2;
+}
+
+.language_container {
+    display: flex;
+    flex-direction: row;
+
+    width: 300px;
+
+    margin-top: 10px;
+}
+
+.language_type {
+    margin: 0px 20px 0px 0px;
+}
+
+.language_level {
+    margin: 0px;
 }
 
 .hobbies {
     grid-row: span 2;
+}
 
-    background-color: blue;
+.hobbies_container {
+    display: flex;
+    flex-direction: column;
+    al
 }
 
 .footer {
