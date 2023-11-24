@@ -1,0 +1,351 @@
+body {
+    margin: 0 auto;
+
+    font-family: "Prelo-Book";
+    font-size: 14px;
+}
+
+p {
+    margin: 0 auto;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+
+    font-family: "Prelo-Bold";
+    color: white;
+    letter-spacing: 2px;
+    line-height: 24px;
+    font-size: 24px;
+}
+
+h2 {
+    margin: 0px 0px 0px 10px;
+
+    font-family: "Prelo-Bold";
+    font-size: 16px;
+}
+
+hr {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: grid;
+    
+    grid-template-columns: 35% auto;
+    grid-template-rows: repeat(1, 100%);
+
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.subheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 30px;
+
+}
+
+.main_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: rgb(227, 227, 227);
+}
+
+.info_column {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    row-gap: 10px;
+    margin: 20px 20px 20px 20px;
+}
+
+.up_box {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    align-items: center;
+
+    border-radius: 0px 0px 800px 800px;
+
+    background-color: rgb(38, 36, 36);
+    padding: 20px 20px 0px 20px;
+}
+
+.profession {
+    margin: 0 auto;
+    text-align: center;
+
+    font-family: "Prelo-Book";
+    font-size: 14px;
+    color: white;
+}
+
+.profile_photo {
+    max-width: 100%;
+    border-radius: 100%;
+    border: 8px solid white;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bottom_box {
+    height: 500px;
+
+    border-radius: 800px 800px 0px 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    background-color: rgb(38, 36, 36);
+}
+
+.contacts {    
+    margin: 10px 20px 10px 20px;
+}
+
+.contact_list {
+    padding: 0px;
+    margin: 10px 0px 0px 20px;
+    list-style-type: none;
+}
+
+.contact_item:before{
+    content: '';
+    display: inline-block;
+    height:20px;
+    width: 20px;
+    vertical-align: middle;
+    border-radius:50%;
+    
+    margin-right:5px;
+}
+
+.contact_item.email:before {
+    background-image: url(./src/icons/mail.svg);
+}
+
+.contact_item.telegram:before {
+    background-image: url(./src/icons/telegram.svg);
+}
+
+.contact_item.discord:before {
+    background-image: url(./src/icons/discord.svg);
+}
+
+.education {
+    margin: 70px 20px 20px 20px;
+    color: white;
+}
+
+.education_item {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.education_place {
+    font-size: 14px;
+    font-family: "Prelo-Bold";
+    line-height: 14px;
+    text-align: start;
+}
+
+.education_degree {
+    margin-top: 5px;
+    line-height: 14px;
+    text-align: start;
+}
+
+.portfolio {
+    color: white;
+    margin: 0px 20px 20px 20px;
+}
+
+.portfolio_list {
+    padding: 0px;
+    margin: 10px 10px 10px 10px;
+    list-style-type: none;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.about_me {
+    grid-column: span 2;
+    
+}
+
+.job_experience {
+    grid-column: span 2;
+}
+
+.experience_item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.experience_role {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.experience_role_name {
+    margin: 0px;
+
+    font-family: "Prelo-Bold";
+}
+
+.experience_role_year {
+    margin: 0px;
+}
+
+.experience_company {
+    margin: 0px 0px 10px 0px;
+}
+
+.experience_description {
+    margin: 0px;
+}
+
+.skills {
+    grid-column: span 2;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+
+    margin-bottom: 10px;
+}
+
+.skills_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-top: 10px;
+}
+
+.skill_text {
+    margin: 0px;
+}
+
+.skill_range {
+    -webkit-appearance: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 4px;
+    width: 80px;
+}
+
+.html {
+    background: -webkit-linear-gradient(left, black 90%, white 90%);
+}
+
+.css {
+    background: -webkit-linear-gradient(left, black 60%, white 60%);
+}
+
+.js {
+    background: -webkit-linear-gradient(left, black 40%, white 40%);
+}
+
+.react {
+    background: -webkit-linear-gradient(left, black 10%, white 10%);
+}
+
+.python {
+    background: -webkit-linear-gradient(left, black 30%, white 30%);
+}
+
+.java {
+    background: -webkit-linear-gradient(left, black 30%, white 30%);
+}
+
+.git {
+    background: -webkit-linear-gradient(left, black 60%, white 60%);
+}
+
+.type_script {
+    background: -webkit-linear-gradient(left, black 20%, white 20%);
+}
+
+.sql {
+    background: -webkit-linear-gradient(left, black 30%, white 30%);
+}
+
+.skill_range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+.skill_range::-moz-range-track {
+    -moz-appearance: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    height: 4px;
+    width: 120px;
+}
+
+.footer {
+    grid-column: span 2;
+
+    color: black;
+    background-color: rgb(227, 227, 227);
+}
+
+.wrapper_ft {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    max-width: 100%;
+    margin: 10px 10px;
+}
+
+.footer_year {
+    margin: 0px 10px 0px 0px;
+}
+
+.footer_school {
+    width: 37px;
+    margin: 0px 10px 0px 0px;
+}
+
+.footer_github {
+    width: 30px;
+}
