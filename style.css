@@ -107,7 +107,7 @@ hr {
 }
 
 .bottom_box {
-    height: 500px;
+    height: 600px;
 
     border-radius: 800px 800px 0px 0px;
     margin-left: 10px;
@@ -319,6 +319,10 @@ hr {
     background-color: white;
     height: 4px;
     width: 120px;
+}
+
+.code_example {
+    grid-column: span 2;
 }
 
 .footer {
