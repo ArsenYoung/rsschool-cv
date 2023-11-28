@@ -321,6 +321,10 @@ hr {
     width: 120px;
 }
 
+.code_example {
+    grid-column: span 2;
+}
+
 .footer {
     grid-column: span 2;
 

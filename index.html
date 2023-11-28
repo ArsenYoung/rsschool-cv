@@ -147,6 +147,25 @@
                     </div>
                 </div>
             </section>
+            <section class="code_example information">
+                <div class="subheader">
+                    <img src="./src/icons/code.svg" alt="code example icon" class="icon">
+                    <h2>CODE EXAMPLE</h2>
+                </div>
+                <pre><code>function convert(input, source, target) {
+    let result = '';
+    if (source.length == 10) {
+        let number = parseInt(input);
+        while (number != 0) {
+            result += number % target.length;
+            number /= target.length;
+        }
+        result = result.split("").reverse().join("");
+    }
+    return result;
+}
+                </code></pre>
+            </section>
             <section class="languages information">
                 <div class="subheader">
                     <img src="./src/icons/languages.svg" alt="languages_icon" class="icon">
