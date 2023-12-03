@@ -22,7 +22,6 @@ h1 {
     font-family: "Prelo-Bold";
     color: white;
     letter-spacing: 2px;
-    line-height: 24px;
     font-size: 24px;
 }
 
@@ -30,22 +29,11 @@ h2 {
     margin: 0px 0px 0px 10px;
 
     font-family: "Prelo-Bold";
-    font-size: 16px;
 }
 
 hr {
     max-width: 100%;
     margin: 0 auto;
-}
-
-.wrapper {
-    display: grid;
-    
-    grid-template-columns: 35% auto;
-    grid-template-rows: repeat(1, 100%);
-
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
 .subheader {
@@ -70,7 +58,7 @@ hr {
 }
 
 .info_column {
-    display: grid;
+    display: none;
     grid-template-columns: 60% 40%;
     row-gap: 10px;
     margin: 20px 20px 20px 20px;
@@ -93,7 +81,6 @@ hr {
     text-align: center;
 
     font-family: "Prelo-Book";
-    font-size: 14px;
     color: white;
 }
 
@@ -249,6 +236,7 @@ hr {
     width: 150px;
 
     margin-bottom: 10px;
+    margin-right: 20px
 }
 
 .skills_container {
