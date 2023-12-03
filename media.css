@@ -69,6 +69,15 @@
         height: auto;
     }
 
+    .up_box {
+        border-radius: 0px;
+        margin: 0px 10px;
+    }
+
+    .profile_photo {
+        max-width: 40%;
+    }
+
     .education {
         margin-top: 30px;
     }
